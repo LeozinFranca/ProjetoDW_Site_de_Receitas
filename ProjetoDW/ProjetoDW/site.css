@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(72deg,rgb(226, 170, 19) 1%, rgb(212, 126, 28) 99%);
+    overflow-x: hidden;
+}
+
+label.titulologo {
+  color: aliceblue;
+  font-size: 35px;
+  line-height: 80px;
+  padding:0 100px;
+  font-weight: bold;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(246, 202, 59, 0.751);
+}
+
+nav ul{
+    float: right;;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: rgba(191, 151, 22, 0.751);
+    transition: 3s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 850px){
+    .checkbtn{
+        display: block;
+        color: fff;
+    }
+      ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(250, 151, 22 );
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+      nav ul li{
+        display:block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      nav ul li{
+        font-size: 20px;
+      }
+      a.active, a:hover{
+        background: none;
+        color: rgba(246, 202, 59, 0.751);
+      }
+}
+
+#check:checked ~ ul{
+    left: 0
+}
+
+.Receitas{
+    margin-top: 60px;
+    background-color: rgb(229, 184, 70);
+    margin-bottom: 60px;
+    height: 350px;
+}
+
+.carroselRes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+   
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+}
+
+.carroselRes .container{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.mais{
+    float: right;
+    padding-bottom: 0%;
+}
+
+img{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    box-shadow: 4px 4px 6px black;
+}
+
+.Restaurantes{
+    background-color: rgb(229, 184, 70);
+    height: 230px;
+    margin-bottom: 70px;
+    height: 350px;
+}
+
+.Comentario{
+    background-color: rgb(229, 184, 70);
+    height: 230px;
+}
+
+.Comentario label{
+    float: left;
+    width: 90px;
+
+}
