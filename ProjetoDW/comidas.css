@@ -1,3 +1,13 @@
-div{
-    margin: 40px;
+.cafe{
+    float: right;
+    height: 400px;
+    width: 800px;
+}
+
+body{
+    color: aliceblue;
+}
+
+.nomeCom{
+    font-size: 20px;
 }

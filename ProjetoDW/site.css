@@ -4,70 +4,68 @@
     text-decoration: none;
     list-style: none;
     box-sizing: none;
+    box-sizing: border-box;
 }
 
 body{
     font-family: sans-serif;
     background: linear-gradient(72deg,rgb(226, 170, 19) 1%, rgb(212, 126, 28) 99%);
+    overflow-x: hidden;
 }
 
 label.titulologo {
   color: aliceblue;
-  font-size: 60px;
-  line-height: 40px;
-  padding:0 10px;
+  font-size: 35px;
+  line-height: 80px;
+  padding:0 100px;
   font-weight: bold;
 }
 
-.img-1{
-   size: 40 40px; 
-}
-
 nav{
-    height: 80px;
+    height: 10vh;
     width: 100%;
     background-color: rgba(246, 202, 59, 0.751);
 }
 
 nav ul{
-    float: right;
-    margin-top: 30px;
-    margin-right: 0px;
+    float: right;;
+    margin-right: 20px;
 }
 
 nav ul li{
     display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
 }
 
 nav ul li a{
     color: aliceblue;
-    font-size: 13px;
-    padding: 2px;
-    border-radius: 8px;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-transform: uppercase;
 }
 
 a.active, a:hover{
-    background: rgb(250, 151, 22 ) ;
-    transition: 1s;
+    background: rgba(191, 151, 22, 0.751);
+    transition: 3s;
 }
 
-.checkbtm{
-    float: right;
-    color: aliceblue;
-    padding: 10px;
+.checkbtn{
     font-size: 30px;
-    line-height: 20px;
-    margin: 15px;
-    margin-right: 20px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
     cursor: pointer;
+    display: none;
 }
 
 #check{
     display: none;
 }
 
-@media(max-width: 900px){
+@media(max-width: 952px){
     label.logo{
         font-size: 30px;
         padding-left: 50px;
@@ -78,16 +76,17 @@ a.active, a:hover{
 }
 
 @media(max-width: 850px){
-      .checkbtm{
+    .checkbtn{
         display: block;
-      }
+        color: aliceblue;
+    }
       ul{
         position: fixed;
         width: 100%;
         height: 100vh;
         background: rgb(250, 151, 22 );
         top: 80px;
-        left: 0;
+        left: -100%;
         text-align: center;
         transition: all .5s;
       }
@@ -101,33 +100,11 @@ a.active, a:hover{
       }
       a.active, a:hover{
         background: none;
-        color:rgb(229, 184, 70);
+        color: rgba(246, 202, 59, 0.751);
       }
 }
 
-.header-1{
-    background-color: rgb(229, 184, 70);
-    margin-top: 10px;
-    width: 650px;
-    height: 530px;
-    margin: 100px
-    
+#check:checked ~ ul{
+    left: 0
 }
 
-.Receitas{
-    background-color: rgb(229, 184, 70);
-    height: 230px;
-    margin-bottom: 100px;
-}
-
-.Restaurantes{
-    background-color: rgb(229, 184, 70);
-    height: 230px;
-    margin-bottom: 100px;
-
-}
-
-.Comentario{
-    background-color: rgb(229, 184, 70);
-    height: 230px;
-}

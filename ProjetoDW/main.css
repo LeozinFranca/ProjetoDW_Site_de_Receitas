@@ -1,0 +1,85 @@
+.Receitas{
+    margin-top: 60px;
+    background-color: rgba(229, 184, 70, 0.59);
+    margin-bottom: 60px;
+    height: 380px;
+}
+
+.labelTitle{
+    font-size: 35px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.carroselRes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 290px;
+    width: 100%px;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+}
+
+.carroselRes .container{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.mais{
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+img{
+    position: relative;
+    object-fit: cover;
+    height: 310px;
+    width: 370px;
+    padding: 10px;
+}
+
+.Restaurantes{
+    background-color: rgba(229, 184, 70, 0.59);
+    margin-bottom: 70px;
+    height: 380px;
+}
+
+.Comentario{
+    background-color: rgba(229, 184, 70, 0.59);
+    height: 200px;
+    width: 40hv;
+}
+
+.Comentario label{
+    float: left;
+    width: 90px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.Comentario.nome{
+    padding-right: -10px;
+}
+
+
+.Comentario .labelTitle{
+    float: none;
+}
+
+.social{
+    float: right;
+    width: 40hv;
+    padding: 10px;
+}
+
+.social label{
+    padding: 20px;
+}
