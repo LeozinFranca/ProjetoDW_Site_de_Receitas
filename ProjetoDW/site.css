@@ -15,9 +15,9 @@ body{
 
 label.titulologo {
   color: aliceblue;
-  font-size: 35px;
+  font-size: 55px;
   line-height: 80px;
-  padding:0 100px;
+  padding:0 50px;
   font-weight: bold;
 }
 
@@ -52,13 +52,13 @@ a.active, a:hover{
 }
 
 .checkbtn{
+    display: none;
     font-size: 30px;
     color: aliceblue;
     float: right;
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
-    display: none;
 }
 
 #check{

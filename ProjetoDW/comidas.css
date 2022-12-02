@@ -1,7 +1,22 @@
 .cafe{
-    float: right;
     height: 400px;
-    width: 800px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.cafe .texto{
+    float: left;
+    height: 400px;
+    width: 700px;
+}
+
+.imagem img{
+    height: 500px;
+    margin: 500px;
+    padding: 0%;
+    margin: 0%;
+    border: 50px;
+    border-color: black;
 }
 
 body{
@@ -11,3 +26,13 @@ body{
 .nomeCom{
     font-size: 20px;
 }
+
+section{
+    margin-top: 50px;
+}
+
+.titulo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+

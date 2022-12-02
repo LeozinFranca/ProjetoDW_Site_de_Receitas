@@ -13,10 +13,8 @@
 
 .carroselRes{
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 290px;
-    width: 100%px;
+    width: 100%;
 }
 
 .container{
@@ -24,6 +22,16 @@
     height: 300px;
 }
 
+.container .imagens{
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    width: 25%;
+    padding: 5px;
+    border-radius: 10px;
+}
 .carroselRes .container{
   display: flex;
   transition: transform 0.5s ease-in-out;
@@ -36,14 +44,6 @@
     font-size: 20px;
     color: aliceblue;
     border-radius: 3px;
-}
-
-img{
-    position: relative;
-    object-fit: cover;
-    height: 310px;
-    width: 370px;
-    padding: 10px;
 }
 
 .Restaurantes{
@@ -65,10 +65,6 @@ img{
     padding: 0px;
 }
 
-.Comentario.nome{
-    padding-right: -10px;
-}
-
 
 .Comentario .labelTitle{
     float: none;
@@ -83,3 +79,5 @@ img{
 .social label{
     padding: 20px;
 }
+
+
