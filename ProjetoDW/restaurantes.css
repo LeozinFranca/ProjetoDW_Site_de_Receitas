@@ -1,6 +1,6 @@
 .divi{
     width: 100%;
-    margin-left: 20px;
+    margin-left: 60px;
     padding-bottom: 100px;
     margin-top: 50px;
 }
@@ -13,7 +13,7 @@
 
 .imagem img{
     height: 400px;
-    width: 45%;
+    width: 40%;
     padding: 0%;
     margin-right: 50px;
     margin-top: 50px;
@@ -37,4 +37,16 @@ section{
 .titulo{
     font-size: 30px;
     text-transform: uppercase;
+}
+
+@media(max-width: 952px){
+    .titulo{
+        font-size: 20px;
+    }
+    .imagem img{
+        height: 200px;
+    }
+    .divi{
+        margin-left: 30px;
+    }
 }
