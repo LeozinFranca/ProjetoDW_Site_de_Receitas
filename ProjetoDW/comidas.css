@@ -27,6 +27,7 @@ section{
 .titulo{
     font-size: 30px;
     text-transform: uppercase;
+    color: brown;
 }
 
 @media(max-width: 952px){

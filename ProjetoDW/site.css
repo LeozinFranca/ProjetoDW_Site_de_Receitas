@@ -14,7 +14,7 @@ body{
 }
 
 label.titulologo {
-  color: aliceblue;
+  color: brown;
   font-size: 55px;
   line-height: 80px;
   padding:0 50px;
@@ -59,6 +59,10 @@ a.active, a:hover{
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
+}
+
+.texto p{
+    text-align: justify;
 }
 
 #check{
