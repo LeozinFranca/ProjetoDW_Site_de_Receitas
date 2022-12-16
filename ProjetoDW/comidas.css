@@ -34,11 +34,9 @@ section{
     .titulo{
         font-size: 20px;
     }
-    .imagem img{
-        height: 150px;
-    }
     .divi{
         margin-left: 30px;
+        margin-bottom: 400px;
    }
 }
 

@@ -1,13 +1,13 @@
 .Receitas{
     margin-top: 60px;
-    background-color: rgba(229, 184, 70, 0.59);
-    margin-bottom: 60px;
+    background-color: rgba(255, 209, 92, 0.5);
+    margin-bottom: 70px;
     height: 380px;
 }
 
 .labelTitle{
     font-size: 35px;
-    color: aliceblue;
+    color: brown;
     margin-left: 10px;
 }
 
@@ -47,13 +47,13 @@
 }
 
 .Restaurantes{
-    background-color: rgba(229, 184, 70, 0.59);
-    margin-bottom: 70px;
+    background-color: rgba(255, 209, 92, 0.5);
+    margin-bottom: 90px;
     height: 380px;
 }
 
 .Comentario{
-    background-color: rgba(229, 184, 70, 0.59);
+    background-color: rgba(255, 209, 92, 0.5);
     height: 200px;
     width: 40hv;
 }
@@ -75,6 +75,8 @@
 }
 
 .Comentario textarea{
+    height: 60px;
+    width: 250px;
     margin-top: 10px;
 }
 
@@ -85,12 +87,19 @@
 }
 
 .social label{
-    padding: 20px;
+    padding: 28px;
+    text-align: right;
+}
+
+.social img{
+   height: 50px;
+   padding-left: 50px;
+   margin-right: 20px;
 }
 
 @media(max-width: 952px){
     .titulo{
-        font-size: 20px;
+        font-size: 15px;
     }
     .container img{
         height: 150px;
@@ -104,6 +113,27 @@
    
    .Receitas{
     height: 200px;
+   }
+
+   .mais{
+    font-size: 15px;
+    float: top;
+   }
+
+   .Comentario{
+    height: 250px;
+   }
+
+   .social img{
+     height: 30px;
+     padding-left: 40px;
+     float: right;
+   }
+
+   .social label{
+    font-size: 10px;
+    padding: 20px;
+    float: right;
    }
 }
 

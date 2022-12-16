@@ -9,7 +9,7 @@
 
 body{
     font-family: sans-serif;
-    background: linear-gradient(72deg,rgb(226, 170, 19) 1%, rgb(212, 126, 28) 99%);
+    background: linear-gradient(72deg,rgb(226, 170, 19) 25%, rgb(228, 131, 21) 75%);
     overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@ label.titulologo {
 nav{
     height: 10vh;
     width: 100%;
-    background-color: rgba(246, 202, 59, 0.751);
+    background-color: rgba(255, 209, 92, 0.7);
 }
 
 nav ul{
@@ -39,7 +39,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: aliceblue;
+    color: brown;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -83,14 +83,14 @@ a.active, a:hover{
 @media(max-width: 850px){
     .checkbtn{
         display: block;
-        color: aliceblue;
+        color: brown;
         float: right;
     }
       ul{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgb(250, 151, 22 );
+        background: rgba(246, 202, 59, 0.967);
         top: 80px;
         left: -100%;
         text-align: center;
